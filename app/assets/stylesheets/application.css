@@ -13,3 +13,85 @@
  *= require_tree .
  *= require_self
  */
+
+ * {
+   box-sizing: border-box;
+ }
+
+ body {
+   font-family: 'Indie Flower', cursive;
+   position: relative;
+   font-family: 'ABeeZee';
+   font-size: 22px;
+ }
+
+ .text {
+   font-size: 20px;
+ }
+ * {
+   margin: 0;
+ }
+ html, body {
+   height: 100%;
+ }
+
+
+ /* <!-- ****************************************************** --> */
+ /* <!-- NavBar Section --> */
+
+ .navbar {
+   margin-bottom: 0px;
+   z-index: 1;
+ }
+
+ .nav li a {
+   font-size: 32px;
+ }
+
+ /* <!-- ****************************************************** --> */
+ /* <!-- Index page Intro Section --> */
+
+ .introIndex {
+  margin-top: 55px;
+  font-family: 'Roboto';
+  font-size: 22px;
+ }
+
+
+ /* <!-- ****************************************************** --> */
+ /* <!-- About page Intro Section --> */
+
+.introAbout {
+  margin-top: 55px;
+  font-family: 'Roboto';
+  font-size: 22px;
+}
+
+
+/* <!-- ****************************************************** --> */
+/* <!-- Contact page Intro Section --> */
+
+.introContact {
+ margin-top: 55px;
+ font-family: 'Roboto';
+ font-size: 22px;
+}
+
+/* <!-- ****************************************************** --> */
+/* <!-- Footer Section --> */
+
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -142px;
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  height: 142px;
+}
+.site-footer {
+  background: rgba(115, 116, 114, 1.000)
+}

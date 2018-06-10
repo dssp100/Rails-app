@@ -1,12 +1,34 @@
-<div class="introIndex ">
-  <p>Welcome! The date and time is <%= Time.now %></p>
-  <%# test_variable = 42 %>
-  <%#= test_variable %>
-  <%#= test_variable - 2 %>
+<div class="introIndex">
 
-  <% 4 + 4 %>
-  <%= 4 + 4 %>
+  <div>
+    Welcome to Dan's Bike Shop
+    <p class="time"><%= Time.now %></p>
+  </div>
 
-  <h1>MOUNTAIN SLAYER</h1>
-  <%= image_tag("racebike.jpg", class: "img-responsive") %>
+  <!-- <h1>MOUNTAIN SLAYER</h1>
+  <%= image_tag("racebike.jpg", class: "img-responsive") %> -->
 </div>
+<!-- ****************************************************** -->
+<!-- Bikes Section -->
+
+<!-- Start of Bikes Section -->
+
+<!-- Start of container-->
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="app/assets/images/racebike.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">MOUNTAIN SLAYER</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+
+<div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+  <div class="card-header">Header</div>
+  <div class="card-body">
+    <h5 class="card-title">Primary card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+
+<!-- ****************************************************** -->

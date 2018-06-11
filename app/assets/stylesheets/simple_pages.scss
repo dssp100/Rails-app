@@ -3,13 +3,33 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
-body {
+// body {
+//
+// }
+//
+// .introIndex {
+//   margin: 40px;
+// }
+// .time {
+//   float: right;
+// }
+
+
+.text {
+  font-size: 20px;
+}
+.navbar {
+  margin-bottom: 0px;
+  z-index: 1;
 
 }
-
-.introIndex {
-  margin: 40px;
+.navbar-right {
+  display: inline-block;
 }
-.time {
-  float: right;
+.nav-link {
+  margin: 20px;
+}
+
+.nav li a {
+  font-size: 32px;
 }

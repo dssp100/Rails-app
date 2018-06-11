@@ -16,6 +16,32 @@
     <!-- ****************************************************** -->
 <!-- NavBar Section -->
 
+<!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Dans Bike Shop</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" <%= link_to 'Home', root_path %> </a>
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" <%= link_to 'About', simple_pages_about_path %> </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" <%= link_to 'Contact', simple_pages_contact_path %> </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav> -->
+
+    <!-- NavBar Section -->
+
     <!-- Start of NavBar -->
     <nav class="navbar navbar-default navbar-fixed-top">
 
@@ -37,14 +63,13 @@
 
           <!-- Start of NavBar left -->
           <ul class="nav navbar-nav">
-            <li><%= link_to 'Home', root_path %></li>
+            <li class="active"><a class="nav-link" <%= link_to 'Home', root_path %> </a></li>
           </ul><!-- End of NavBar left -->
 
           <!-- Start of NavBar right -->
           <ul class="nav navbar-nav navbar-right">
-            <li><%= link_to 'About', simple_pages_about_path %></li>
-            <li><%= link_to 'Contact', simple_pages_contact_path %></li>
-            <!-- <li><a href="#faq">FAQ</a></li> -->
+            <li><a class="nav-link" <%= link_to 'About', simple_pages_about_path %> </a></li>
+            <li><a class="nav-link" <%= link_to 'Contact', simple_pages_contact_path %> </a></li>
           </ul><!-- End of NavBar right -->
 
         </div><!-- End of navbar-collapse -->
@@ -62,8 +87,10 @@
 
   </div>
 
-  <footer class="site-footer">
-    &copy; 2018 Bike Berlin
+  <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright © Dan's Website 2018</p>
+      </div>
   </footer>
 
   </body>
